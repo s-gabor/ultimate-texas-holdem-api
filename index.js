@@ -39,8 +39,11 @@ const getUser = (email, password) => {
     return {email: 'not found', password: 'none'};
 }
 
+app.get('/', function (req, res) {
+    res.json('Server started!');
+})
+
 app.post('/register', function (req, res) {
-    console.log('register: ', users, req.body);
     if (req.body.email && req.body.password && req.body.password) {
         const newUser = createUser(req.body.name, req.body.email, req.body.password, )
         users.push(newUser);

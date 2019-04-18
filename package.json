@@ -1,0 +1,28 @@
+{
+  "name": "ultimate-texas-holdem-api",
+  "version": "1.0.0",
+  "description": "server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-gabor/ultimate-texas-holdem-api.git"
+  },
+  "author": "s-gabor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/s-gabor/ultimate-texas-holdem-api/issues"
+  },
+  "homepage": "https://github.com/s-gabor/ultimate-texas-holdem-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}

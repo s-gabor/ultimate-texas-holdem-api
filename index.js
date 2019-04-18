@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
+const PORT = process.env.PORT || 5000;
 
 
 const app = express();
@@ -59,4 +60,4 @@ app.post('/signin', function (req, res) {
     
 })
 
-app.listen(3005, () => console.log('Server started on port 3005'));
+app.listen(PORT, () => console.log(`Server started on port ${PORT}`));

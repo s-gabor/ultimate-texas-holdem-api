@@ -40,7 +40,7 @@ const getUser = (email, password) => {
 }
 
 app.get('/', function (req, res) {
-    res.json('Server started!');
+    res.json(users);
 })
 
 app.post('/register', function (req, res) {
